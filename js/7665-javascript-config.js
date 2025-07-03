@@ -8,7 +8,7 @@ var bookConfig = {
   productName: "Flip PDF Plus",
   productVersion: "6.24.11",
   homePage: "https://www.flipbuilder.com/",
-  totalPageCount: 20,
+  totalPageCount: 14,
   largePageWidth: 1336,
   largePageHeight: 1849,
   BookTemplateName: "Clear",
@@ -508,12 +508,6 @@ var fliphtml5_pages = [
   { l: "files/page/12.jpg", t: "files/thumb/12.jpg" },
   { l: "files/page/13.jpg", t: "files/thumb/13.jpg" },
   { l: "files/page/14.jpg", t: "files/thumb/14.jpg" },
-  { l: "files/page/15.jpg", t: "files/thumb/15.jpg" },
-  { l: "files/page/16.jpg", t: "files/thumb/16.jpg" },
-  { l: "files/page/17.jpg", t: "files/thumb/17.jpg" },
-  { l: "files/page/18.jpg", t: "files/thumb/18.jpg" },
-  { l: "files/page/19.jpg", t: "files/thumb/19.jpg" },
-  { l: "files/page/20.jpg", t: "files/thumb/20.jpg" }
 ];
 var ols = [];
 var bmtConfig = { tabs: [], hasTexture: false, onSideEdge: false };
@@ -544,13 +538,7 @@ var search_pages = [
   { index: 11 },
   { index: 12 },
   { index: 13 },
-  { index: 14 },
-  { index: 15 },
-  { index: 16 },
-  { index: 17 },
-  { index: 18 },
-  { index: 19 },
-  { index: 20 }
+  { index: 14 }
 ];
 var downloadconfig = {
   pdf: { isOriginPath: true, url: "", urlOnlink: "" },

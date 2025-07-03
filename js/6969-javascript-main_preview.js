@@ -18749,7 +18749,7 @@ var FlipShotButton = Class({
       d = this.getImageUrl("previous_normal_down"),
       f = this.getImageUrl("next_normal_down"),
       g = this.getImageUrl("../files/thumb/1.jpg"),
-      h = this.getImageUrl("../files/thumb/20.jpg");
+      h = this.getImageUrl("../files/thumb/14.jpg");
     this.leftBotton = $("<div class='flip_button_left'></div>");
     this.leftBottonIcon = $("<img src='" + b + "'/>");
     this.leftBotton.append(this.leftBottonIcon);
@@ -18760,7 +18760,7 @@ var FlipShotButton = Class({
       "<div class='flip_button_first'><img src='../files/thumb/1.jpg' width='70px' height='100px'/></div>"
     );
     this.lastButton = $(
-      "<div class='flip_button_last'><img src='../files/thumb/20.jpg' width='70px' height='100px'/></div>"
+      "<div class='flip_button_last'><img src='../files/thumb/14.jpg' width='70px' height='100px'/></div>"
     );
     var k = this;
     $("<img src='" + b + "'/>")[0].onload = function () {
@@ -91692,7 +91692,7 @@ Class("PhoneButtonQueue", {
 Class("PhoneToolbar", {
   initBar: function () {
     bookConfig.ToolBarVisible &&
-      ((this.topBar = $("<div class='phoneTopBar'><img onClick=\"window.open('https://linktr.ee/fybcom_msu')\" src='../downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>")),
+      ((this.topBar = $("<div class='phoneTopBar'><img onClick=\"window.open('https://linktr.ee/fybcom_msu')\" src='./downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>")),
       (this.bottomBar = $("<div class='phoneBottomBar'></div>")),
       this.parent.append(this.topBar),
       this.parent.append(this.bottomBar),
@@ -93362,7 +93362,7 @@ Class("MobileButtonQueue", {
 Class("PCToolbar", {
   initBar: function () {
     this.bottomBar = $("<div class='fbToolBar' id='fbToolBar'></div>");
-    this.logoBar = $("<div id='logoBar' class='logoBar'><img  onClick=\"window.open('https://linktr.ee/fybcom_msu')\" src='../downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>");
+    this.logoBar = $("<div id='logoBar' class='logoBar'><img  onClick=\"window.open('https://linktr.ee/fybcom_msu')\" src='./downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>");
     this.buttonBar = $("<div class='buttonBar'></div>");
     this.edtPageNumber = $(
       "<div class='pageNumber'><input autocomplete='off' type='text' id='currentPageIndexTextField' value='' /></div>"
