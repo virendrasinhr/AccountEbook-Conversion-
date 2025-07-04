@@ -91692,7 +91692,7 @@ Class("PhoneButtonQueue", {
 Class("PhoneToolbar", {
   initBar: function () {
     bookConfig.ToolBarVisible &&
-      ((this.topBar = $("<div class='phoneTopBar'><img onClick=\"window.open('https://linktr.ee/fybcom_msu')\" src='./downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>")),
+      ((this.topBar = $("<div class='phoneTopBar'><img onClick=\"window.open('https://www.sahasinstitute.com/')\" src='./downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>")),
       (this.bottomBar = $("<div class='phoneBottomBar'></div>")),
       this.parent.append(this.topBar),
       this.parent.append(this.bottomBar),
@@ -93362,7 +93362,7 @@ Class("MobileButtonQueue", {
 Class("PCToolbar", {
   initBar: function () {
     this.bottomBar = $("<div class='fbToolBar' id='fbToolBar'></div>");
-    this.logoBar = $("<div id='logoBar' class='logoBar'><img  onClick=\"window.open('https://linktr.ee/fybcom_msu')\" src='./downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>");
+    this.logoBar = $("<div id='logoBar' class='logoBar'><img  onClick=\"window.open('https://www.sahasinstitute.com/')\" src='./downloadgp.png' width='180px' height='60px' style='margin-top: -10px;'/></div>");
     this.buttonBar = $("<div class='buttonBar'></div>");
     this.edtPageNumber = $(
       "<div class='pageNumber'><input autocomplete='off' type='text' id='currentPageIndexTextField' value='' /></div>"
