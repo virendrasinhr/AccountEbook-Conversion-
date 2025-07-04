@@ -11908,7 +11908,7 @@ var changeLanguage = function (b) {
       )
         b = "slidesound";
       flipAudio = $(
-        "<audio preload id='flipSound'><source src='https://ebook.g20.org/ebook/bharatmod/style/raw/flipsound.ogg?2018071601' type='audio/ogg'><source src='https://ebook.g20.org/ebook/bharatmod/style/raw/flipsound.mp3?2018071601' type='audio/mpeg'></audio>"
+        "<audio preload id='flipSound'><source src='../pageturn-102978.mp3' type='audio/ogg'><source src='../pageturn-102978.mp3' type='audio/mpeg'></audio>"
       );
       $("body").append(flipAudio);
     }
